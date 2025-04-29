@@ -51,6 +51,7 @@
 		D59C11902DC1318500D2E44A /* LRUCacheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCacheView.swift; sourceTree = "<group>"; };
 		D59C119C2DC1457800D2E44A /* LRUCacheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCacheViewModel.swift; sourceTree = "<group>"; };
 		D59C119E2DC146D200D2E44A /* LRUCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCacheTests.swift; sourceTree = "<group>"; };
+		D59C11A02DC14EC200D2E44A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		D59C11502DC1235600D2E44A = {
 			isa = PBXGroup;
 			children = (
+				D59C11A02DC14EC200D2E44A /* README.md */,
 				D59C11862DC1238500D2E44A /* LRUCache */,
 				D59C115B2DC1235600D2E44A /* LRUCacheChallenge */,
 				D59C116C2DC1235B00D2E44A /* LRUCacheChallengeTests */,
