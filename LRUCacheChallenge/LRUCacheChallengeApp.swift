@@ -11,7 +11,7 @@ import SwiftUI
 struct LRUCacheChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LRUCacheView()
         }
     }
 }

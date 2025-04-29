@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D59C115D2DC1235600D2E44A /* LRUCacheChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C115C2DC1235600D2E44A /* LRUCacheChallengeApp.swift */; };
-		D59C115F2DC1235600D2E44A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C115E2DC1235600D2E44A /* ContentView.swift */; };
 		D59C11612DC1235B00D2E44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59C11602DC1235B00D2E44A /* Assets.xcassets */; };
 		D59C11642DC1235B00D2E44A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59C11632DC1235B00D2E44A /* Preview Assets.xcassets */; };
 		D59C116E2DC1235B00D2E44A /* LRUCacheChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C116D2DC1235B00D2E44A /* LRUCacheChallengeTests.swift */; };
 		D59C11782DC1235B00D2E44A /* LRUCacheChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C11772DC1235B00D2E44A /* LRUCacheChallengeUITests.swift */; };
 		D59C117A2DC1235B00D2E44A /* LRUCacheChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C11792DC1235B00D2E44A /* LRUCacheChallengeUITestsLaunchTests.swift */; };
+		D59C118A2DC1240500D2E44A /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C11892DC1240500D2E44A /* LRUCache.swift */; };
+		D59C118B2DC1240500D2E44A /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C11892DC1240500D2E44A /* LRUCache.swift */; };
+		D59C11912DC1318500D2E44A /* LRUCacheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C11902DC1318500D2E44A /* LRUCacheView.swift */; };
+		D59C119D2DC1457800D2E44A /* LRUCacheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C119C2DC1457800D2E44A /* LRUCacheViewModel.swift */; };
+		D59C119F2DC146D200D2E44A /* LRUCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C119E2DC146D200D2E44A /* LRUCacheTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		D59C11592DC1235600D2E44A /* LRUCacheChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRUCacheChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59C115C2DC1235600D2E44A /* LRUCacheChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCacheChallengeApp.swift; sourceTree = "<group>"; };
-		D59C115E2DC1235600D2E44A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D59C11602DC1235B00D2E44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D59C11632DC1235B00D2E44A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D59C11692DC1235B00D2E44A /* LRUCacheChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRUCacheChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,10 @@
 		D59C11732DC1235B00D2E44A /* LRUCacheChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRUCacheChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59C11772DC1235B00D2E44A /* LRUCacheChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCacheChallengeUITests.swift; sourceTree = "<group>"; };
 		D59C11792DC1235B00D2E44A /* LRUCacheChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCacheChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D59C11892DC1240500D2E44A /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		D59C11902DC1318500D2E44A /* LRUCacheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCacheView.swift; sourceTree = "<group>"; };
+		D59C119C2DC1457800D2E44A /* LRUCacheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCacheViewModel.swift; sourceTree = "<group>"; };
+		D59C119E2DC146D200D2E44A /* LRUCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCacheTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,7 @@
 		D59C11502DC1235600D2E44A = {
 			isa = PBXGroup;
 			children = (
+				D59C11862DC1238500D2E44A /* LRUCache */,
 				D59C115B2DC1235600D2E44A /* LRUCacheChallenge */,
 				D59C116C2DC1235B00D2E44A /* LRUCacheChallengeTests */,
 				D59C11762DC1235B00D2E44A /* LRUCacheChallengeUITests */,
@@ -95,9 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				D59C115C2DC1235600D2E44A /* LRUCacheChallengeApp.swift */,
-				D59C115E2DC1235600D2E44A /* ContentView.swift */,
 				D59C11602DC1235B00D2E44A /* Assets.xcassets */,
 				D59C11622DC1235B00D2E44A /* Preview Content */,
+				D59C11902DC1318500D2E44A /* LRUCacheView.swift */,
 			);
 			path = LRUCacheChallenge;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				D59C116D2DC1235B00D2E44A /* LRUCacheChallengeTests.swift */,
+				D59C119E2DC146D200D2E44A /* LRUCacheTests.swift */,
 			);
 			path = LRUCacheChallengeTests;
 			sourceTree = "<group>";
@@ -125,6 +134,15 @@
 				D59C11792DC1235B00D2E44A /* LRUCacheChallengeUITestsLaunchTests.swift */,
 			);
 			path = LRUCacheChallengeUITests;
+			sourceTree = "<group>";
+		};
+		D59C11862DC1238500D2E44A /* LRUCache */ = {
+			isa = PBXGroup;
+			children = (
+				D59C11892DC1240500D2E44A /* LRUCache.swift */,
+				D59C119C2DC1457800D2E44A /* LRUCacheViewModel.swift */,
+			);
+			path = LRUCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D59C115F2DC1235600D2E44A /* ContentView.swift in Sources */,
+				D59C118A2DC1240500D2E44A /* LRUCache.swift in Sources */,
+				D59C119D2DC1457800D2E44A /* LRUCacheViewModel.swift in Sources */,
+				D59C11912DC1318500D2E44A /* LRUCacheView.swift in Sources */,
 				D59C115D2DC1235600D2E44A /* LRUCacheChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59C118B2DC1240500D2E44A /* LRUCache.swift in Sources */,
+				D59C119F2DC146D200D2E44A /* LRUCacheTests.swift in Sources */,
 				D59C116E2DC1235B00D2E44A /* LRUCacheChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
